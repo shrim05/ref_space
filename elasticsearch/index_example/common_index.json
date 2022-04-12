@@ -1,0 +1,25 @@
+{
+    "recent_search": {
+        "mappings": {
+            "properties": {
+                "search_text": {
+                    "type": "keyword"
+                },
+                "keywords": {
+                    "type": "keyword"
+                },
+                "sna": {
+                    "type": "object",
+                    "enabled": false
+                },
+                "section_predict":{
+                    "type": "object",
+                    "enabled": false
+                },
+                "timestamp": {
+                    "type": "date"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "ipc": {
+        "mappings": {
+            "properties": {
+                "section": {
+                    "type": "keyword"
+                },
+                "section_con": {
+                    "type": "keyword"
+                },
+                "class": {
+                    "type": "keyword"
+                },
+                "subclass": {
+                    "type": "keyword"
+                },
+                "subclass_con": {
+                    "type": "keyword"
+                },
+                "version": {
+                    "type": "keyword"
+                }
+            }
+        }
+    },
+    "ddc": {
+        "mappings": {
+            "properties": {
+                "section": {
+                    "type": "keyword"
+                },
+                "section_con": {
+                    "type": "keyword"
+                },
+                "class": {
+                    "type": "keyword"
+                },
+                "subclass": {
+                    "type": "keyword"
+                },
+                "subclass_con": {
+                    "type": "keyword"
+                },
+                "version": {
+                    "type": "keyword"
+                }
+            }
+        }
+    },
+    "entity_type": {
+        "mappings": {
+            "properties":{
+                "type_id":{
+                    "type": "keyword"
+                },
+                "type_kor_nm":{
+                    "type": "keyword"
+                },
+                "type_eng_nm":{
+                    "type": "keyword"
+                },
+                "definition":{
+                    "type":"text",
+                    "fields":{
+                        "keyword":{
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "entity_ex":{
+                    "type":"text",
+                    "fields":{
+                        "keyword":{
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

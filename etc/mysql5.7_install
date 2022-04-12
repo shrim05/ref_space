@@ -1,0 +1,10 @@
+sudo wget https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.28-1.el7.x86_64.rpm-bundle.tar
+
+sudo tar xvf mysql-5.7.28-1.el7.x86_64.rpm-bundle.tar
+
+sudo yum localinstall mysql-community-*
+
+sudo mysql_secure_installation
+
+
+참고:https://sparkdia.tistory.com/11

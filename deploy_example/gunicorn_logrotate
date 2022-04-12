@@ -1,0 +1,15 @@
+/data/logs/anal_engine01/access.log
+/data/logs/anal_engine01/error.log
+{
+        daily
+        rotate 30
+        missingok
+        notifempty
+        dateext
+        dateyesterday
+        create 644 root root
+        sharedscripts
+        postrotate
+            killall -s SIGUSR1 gunicorn
+        endscript
+}
